@@ -1,0 +1,1190 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="EsteeLauderProject" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Since 1946" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Mmm-CX-Mud">
+                                <rect key="frame" x="70" y="113" width="274" height="32"/>
+                                <color key="tintColor" red="0.34640258680000002" green="0.35308491879999998" blue="0.32483777860000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <fontDescription key="fontDescription" name="Didot" family="Didot" pointSize="25"/>
+                                <color key="textColor" red="0.34640258680000002" green="0.35308491879999998" blue="0.32483777860000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Estée Lauder" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="L53-nF-l4I">
+                                <rect key="frame" x="70" y="64" width="274" height="44"/>
+                                <color key="tintColor" name="AccentColor"/>
+                                <fontDescription key="fontDescription" name="Didot" family="Didot" pointSize="35"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HQ8-6Z-l2E">
+                                <rect key="frame" x="10" y="551" width="394" height="14"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title=""/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Yqt-7C-vDe">
+                                <rect key="frame" x="195" y="551" width="24" height="14"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title=""/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="akS-Ra-hUl">
+                                <rect key="frame" x="70" y="210" width="274" height="46"/>
+                                <color key="backgroundColor" red="0.88150376080000004" green="0.86679221880000001" blue="0.83059246929999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <color key="tintColor" red="0.57874745130000005" green="0.32151988149999999" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Menu">
+                                    <fontDescription key="titleFontDescription" name="Didot" family="Didot" pointSize="25"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <segue destination="4GZ-uc-oR4" kind="presentation" id="wLK-Cg-Nfz"/>
+                                </connections>
+                            </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="10" translatesAutoresizingMaskIntoConstraints="NO" id="a6w-h4-ARj">
+                                <rect key="frame" x="70" y="264" width="274" height="214"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="214" id="SeC-O7-lVk"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9L1-9E-IPu">
+                                <rect key="frame" x="103" y="264" width="214" height="214"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title=""/>
+                                <connections>
+                                    <segue destination="4GZ-uc-oR4" kind="presentation" id="jTO-do-HcA"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" red="0.88150376080000004" green="0.86679221877798929" blue="0.83059246931003128" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="HQ8-6Z-l2E" secondAttribute="bottom" constant="297" id="1yV-rL-rjA"/>
+                            <constraint firstItem="Yqt-7C-vDe" firstAttribute="centerX" secondItem="Mmm-CX-Mud" secondAttribute="centerX" id="4J7-gF-ubQ"/>
+                            <constraint firstItem="akS-Ra-hUl" firstAttribute="leading" secondItem="Mmm-CX-Mud" secondAttribute="leading" id="4fj-YO-7G1"/>
+                            <constraint firstItem="a6w-h4-ARj" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="70" id="6mI-wW-B0o"/>
+                            <constraint firstItem="akS-Ra-hUl" firstAttribute="top" secondItem="Mmm-CX-Mud" secondAttribute="bottom" constant="65" id="8As-R2-qHX"/>
+                            <constraint firstItem="Mmm-CX-Mud" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="70" id="HD2-52-0Jj"/>
+                            <constraint firstItem="L53-nF-l4I" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="70" id="IvU-Cy-FIz"/>
+                            <constraint firstItem="Yqt-7C-vDe" firstAttribute="centerX" secondItem="akS-Ra-hUl" secondAttribute="centerX" id="JCl-qF-lSw"/>
+                            <constraint firstItem="HQ8-6Z-l2E" firstAttribute="bottom" secondItem="Yqt-7C-vDe" secondAttribute="bottom" id="Ro6-wu-Hro"/>
+                            <constraint firstItem="L53-nF-l4I" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="20" id="V7p-Em-Tel"/>
+                            <constraint firstItem="Mmm-CX-Mud" firstAttribute="top" secondItem="L53-nF-l4I" secondAttribute="bottom" constant="5" id="VN7-qW-fBe"/>
+                            <constraint firstItem="L53-nF-l4I" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="70" id="WJ8-Xg-RPS"/>
+                            <constraint firstItem="HQ8-6Z-l2E" firstAttribute="centerX" secondItem="Yqt-7C-vDe" secondAttribute="centerX" id="cb0-rL-9jp"/>
+                            <constraint firstItem="a6w-h4-ARj" firstAttribute="top" secondItem="akS-Ra-hUl" secondAttribute="bottom" constant="8" symbolic="YES" id="dA3-1D-U9f"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Mmm-CX-Mud" secondAttribute="trailing" constant="70" id="gVd-0v-eG4"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="L53-nF-l4I" secondAttribute="trailing" constant="70" id="qGj-ya-z9F"/>
+                            <constraint firstItem="HQ8-6Z-l2E" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="10" id="srH-X8-1eX"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="L53-nF-l4I" secondAttribute="trailing" constant="70" id="t8S-6c-LYC"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="a6w-h4-ARj" secondAttribute="trailing" constant="70" id="yzq-kx-4tE"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-294.20289855072468" y="81.696428571428569"/>
+        </scene>
+        <!--View Controller5-->
+        <scene sceneID="8g2-rw-1q2">
+            <objects>
+                <viewController id="4GZ-uc-oR4" customClass="ViewController5" customModule="EsteeLauderProject" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="zx2-Yr-Rmy">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lOg-cg-AgT">
+                                <rect key="frame" x="70" y="69" width="274" height="46"/>
+                                <color key="backgroundColor" red="0.88150376080000004" green="0.86679221880000001" blue="0.83059246929999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <color key="tintColor" red="0.57874745130000005" green="0.32151988149999999" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Home">
+                                    <fontDescription key="titleFontDescription" name="Didot" family="Didot" pointSize="25"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <segue destination="BYZ-38-t0r" kind="presentation" modalPresentationStyle="fullScreen" modalTransitionStyle="coverVertical" id="129-uu-CfX"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="r0g-S6-6b5">
+                                <rect key="frame" x="70" y="125" width="274" height="46"/>
+                                <color key="backgroundColor" red="0.88150376080000004" green="0.86679221880000001" blue="0.83059246929999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <color key="tintColor" red="0.57874745130000005" green="0.32151988149999999" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="About Us">
+                                    <fontDescription key="titleFontDescription" name="Didot" family="Didot" pointSize="25"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <segue destination="bHG-fE-h7O" kind="presentation" modalPresentationStyle="fullScreen" modalTransitionStyle="coverVertical" id="aUv-Sv-aMm"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lQv-ga-z6c">
+                                <rect key="frame" x="70" y="181" width="274" height="46"/>
+                                <color key="backgroundColor" red="0.88150376080000004" green="0.86679221880000001" blue="0.83059246929999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <color key="tintColor" red="0.57874745130000005" green="0.32151988149999999" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Our Products">
+                                    <fontDescription key="titleFontDescription" name="Didot" family="Didot" pointSize="25"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <segue destination="qz6-gR-ZOQ" kind="presentation" modalPresentationStyle="fullScreen" id="Bvd-4a-ecw"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sqt-mV-CNq">
+                                <rect key="frame" x="70" y="237" width="274" height="46"/>
+                                <color key="backgroundColor" red="0.88150376080000004" green="0.86679221880000001" blue="0.83059246929999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <color key="tintColor" red="0.57874745130000005" green="0.32151988149999999" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Learn More">
+                                    <fontDescription key="titleFontDescription" name="Didot" family="Didot" pointSize="25"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <segue destination="yz8-Ab-H91" kind="presentation" modalPresentationStyle="fullScreen" modalTransitionStyle="coverVertical" id="dLG-ct-dm8"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="MyB-P6-OjJ"/>
+                        <color key="backgroundColor" systemColor="secondarySystemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="MyB-P6-OjJ" firstAttribute="trailing" secondItem="lQv-ga-z6c" secondAttribute="trailing" constant="70" id="0B6-Hh-qys"/>
+                            <constraint firstItem="lQv-ga-z6c" firstAttribute="top" secondItem="r0g-S6-6b5" secondAttribute="bottom" constant="10" id="44A-yV-7Om"/>
+                            <constraint firstItem="MyB-P6-OjJ" firstAttribute="trailing" secondItem="r0g-S6-6b5" secondAttribute="trailing" constant="70" id="4ct-AS-Jhi"/>
+                            <constraint firstItem="sqt-mV-CNq" firstAttribute="top" secondItem="lQv-ga-z6c" secondAttribute="bottom" constant="10" id="7fE-jK-VsB"/>
+                            <constraint firstItem="r0g-S6-6b5" firstAttribute="top" secondItem="lOg-cg-AgT" secondAttribute="bottom" constant="10" id="8jJ-Q3-TZy"/>
+                            <constraint firstItem="r0g-S6-6b5" firstAttribute="leading" secondItem="MyB-P6-OjJ" secondAttribute="leading" constant="70" id="HiY-uu-s6j"/>
+                            <constraint firstItem="sqt-mV-CNq" firstAttribute="leading" secondItem="MyB-P6-OjJ" secondAttribute="leading" constant="70" id="HqZ-TC-XDp"/>
+                            <constraint firstItem="lOg-cg-AgT" firstAttribute="top" secondItem="MyB-P6-OjJ" secondAttribute="top" constant="25" id="Kin-g8-E6F"/>
+                            <constraint firstItem="lOg-cg-AgT" firstAttribute="leading" secondItem="MyB-P6-OjJ" secondAttribute="leading" constant="70" id="PHR-iE-end"/>
+                            <constraint firstItem="MyB-P6-OjJ" firstAttribute="trailing" secondItem="lOg-cg-AgT" secondAttribute="trailing" constant="70" id="U2k-YI-6c4"/>
+                            <constraint firstItem="lQv-ga-z6c" firstAttribute="leading" secondItem="MyB-P6-OjJ" secondAttribute="leading" constant="70" id="UK4-aP-c0d"/>
+                            <constraint firstItem="MyB-P6-OjJ" firstAttribute="trailing" secondItem="sqt-mV-CNq" secondAttribute="trailing" constant="70" id="vBf-nf-EN3"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="aboutUsButton2" destination="r0g-S6-6b5" id="6PE-aa-awS"/>
+                        <outlet property="homeButton2" destination="lOg-cg-AgT" id="3Ou-jM-CdT"/>
+                        <outlet property="learnMoreButton2" destination="sqt-mV-CNq" id="GjW-8Y-cT2"/>
+                        <outlet property="ourProductsButton2" destination="lQv-ga-z6c" id="EBW-XU-FH0"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="vq3-SX-6ta" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="576.81159420289862" y="498.88392857142856"/>
+        </scene>
+        <!--View Controller2-->
+        <scene sceneID="BUp-sy-gV6">
+            <objects>
+                <viewController id="bHG-fE-h7O" customClass="ViewController2" customModule="EsteeLauderProject" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="xXz-8t-Lut">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="About Us" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ePO-yb-Zv4">
+                                <rect key="frame" x="70" y="59" width="274" height="38"/>
+                                <color key="tintColor" red="0.34640258680000002" green="0.35308491879999998" blue="0.32483777860000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <fontDescription key="fontDescription" name="Didot" family="Didot" pointSize="30"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Das-ql-tJK">
+                                <rect key="frame" x="70" y="826" width="274" height="46"/>
+                                <color key="tintColor" red="0.57874745130000005" green="0.32151988149999999" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Menu">
+                                    <fontDescription key="titleFontDescription" name="Didot" family="Didot" pointSize="25"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <segue destination="4GZ-uc-oR4" kind="presentation" id="yFs-Dc-023"/>
+                                </connections>
+                            </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="5" translatesAutoresizingMaskIntoConstraints="NO" id="ovG-oK-V4X">
+                                <rect key="frame" x="70" y="643" width="274" height="166"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="166" id="Bde-sl-wlM"/>
+                                </constraints>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="CK4-S4-ldS">
+                                <rect key="frame" x="70" y="105" width="274" height="504"/>
+                                <color key="backgroundColor" red="0.88150376080000004" green="0.86679221880000001" blue="0.83059246929999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <string key="text">Estée Lauder, Our Founder   
+https://www.esteelauder.com/blog-article-how-estee-lauder-got-her-start           
+
+Careers                            https://jobs.elcompanies.com/esteelauder/jobs?page=1&amp;location=United%20States&amp;woe=12&amp;stretchUnit=MILES&amp;stretch=50          
+
+Corporate Information     https://www.esteelauder.com/corp_info
+</string>
+                                <color key="textColor" systemColor="labelColor"/>
+                                <fontDescription key="fontDescription" name="Didot" family="Didot" pointSize="20"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                <dataDetectorType key="dataDetectorTypes" link="YES"/>
+                            </textView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="Jxi-15-v0g"/>
+                        <color key="backgroundColor" red="0.88150376080000004" green="0.86679221880000001" blue="0.83059246929999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <constraints>
+                            <constraint firstItem="Das-ql-tJK" firstAttribute="leading" secondItem="Jxi-15-v0g" secondAttribute="leading" constant="70" id="0CP-nV-bAV"/>
+                            <constraint firstItem="ovG-oK-V4X" firstAttribute="leading" secondItem="Jxi-15-v0g" secondAttribute="leading" constant="70" id="0MN-9U-eNT"/>
+                            <constraint firstItem="CK4-S4-ldS" firstAttribute="top" secondItem="ePO-yb-Zv4" secondAttribute="bottom" constant="8" symbolic="YES" id="21H-S8-ZNe"/>
+                            <constraint firstItem="ePO-yb-Zv4" firstAttribute="top" secondItem="Jxi-15-v0g" secondAttribute="top" constant="15" id="5GG-sd-PoG"/>
+                            <constraint firstItem="Jxi-15-v0g" firstAttribute="trailing" secondItem="ePO-yb-Zv4" secondAttribute="trailing" constant="70" id="9Za-CR-dRc"/>
+                            <constraint firstItem="ePO-yb-Zv4" firstAttribute="leading" secondItem="Jxi-15-v0g" secondAttribute="leading" constant="70" id="Aed-2v-Ilh"/>
+                            <constraint firstItem="Das-ql-tJK" firstAttribute="bottom" secondItem="Jxi-15-v0g" secondAttribute="bottom" constant="10" id="Agm-Fc-obD"/>
+                            <constraint firstItem="CK4-S4-ldS" firstAttribute="leading" secondItem="Jxi-15-v0g" secondAttribute="leading" constant="70" id="ECn-cW-Br5"/>
+                            <constraint firstItem="Jxi-15-v0g" firstAttribute="trailing" secondItem="CK4-S4-ldS" secondAttribute="trailing" constant="70" id="HNi-Pw-P71"/>
+                            <constraint firstItem="Jxi-15-v0g" firstAttribute="trailing" secondItem="ovG-oK-V4X" secondAttribute="trailing" constant="70" id="Qk2-rC-Lol"/>
+                            <constraint firstItem="Das-ql-tJK" firstAttribute="top" secondItem="ovG-oK-V4X" secondAttribute="bottom" constant="8" symbolic="YES" id="eeh-Ql-B64"/>
+                            <constraint firstItem="ovG-oK-V4X" firstAttribute="top" secondItem="CK4-S4-ldS" secondAttribute="bottom" constant="43" id="oPO-MI-m7F"/>
+                            <constraint firstItem="Jxi-15-v0g" firstAttribute="trailing" secondItem="Das-ql-tJK" secondAttribute="trailing" constant="70" id="xah-a6-jdU"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="gQh-M2-9xv"/>
+                    <connections>
+                        <outlet property="aboutUsSign" destination="ePO-yb-Zv4" id="P1Z-hR-roW"/>
+                        <outlet property="menuButton2" destination="Das-ql-tJK" id="wQJ-ZF-elD"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="vTN-4K-awl" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1434.7826086956522" y="81.696428571428569"/>
+        </scene>
+        <!--View Controller Sets And Gifts-->
+        <scene sceneID="Kgs-jy-w09">
+            <objects>
+                <viewController id="X9E-70-5pv" customClass="ViewControllerSetsAndGifts" customModule="EsteeLauderProject" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="cHG-pr-L2g">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Sets &amp; Gifts" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DGw-tj-9VM">
+                                <rect key="frame" x="70" y="69" width="274" height="66"/>
+                                <fontDescription key="fontDescription" name="Didot" family="Didot" pointSize="25"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Screen Shot 2022-08-13 at 10.59.07 PM" translatesAutoresizingMaskIntoConstraints="NO" id="XjL-SP-lqz">
+                                <rect key="frame" x="70" y="143" width="274" height="462"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="462" id="fW2-R0-xmx"/>
+                                </constraints>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="CpU-LY-iS3">
+                                <rect key="frame" x="70" y="613" width="274" height="128"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="128" id="w36-um-bT1"/>
+                                </constraints>
+                                <string key="text">https://www.esteelauder.com/product/707/99113/product-catalog/sets-gifts/skincare-sets-gifts/soft-clean/silky-hydrating-lotion-set</string>
+                                <color key="textColor" systemColor="labelColor"/>
+                                <fontDescription key="fontDescription" name="Didot" family="Didot" pointSize="15"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                <dataDetectorType key="dataDetectorTypes" link="YES"/>
+                            </textView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="nOA-3B-poi"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="DGw-tj-9VM" firstAttribute="leading" secondItem="nOA-3B-poi" secondAttribute="leading" constant="70" id="TxH-MV-9UK"/>
+                            <constraint firstItem="nOA-3B-poi" firstAttribute="trailing" secondItem="XjL-SP-lqz" secondAttribute="trailing" constant="70" id="Ubp-ne-KZd"/>
+                            <constraint firstItem="nOA-3B-poi" firstAttribute="trailing" secondItem="CpU-LY-iS3" secondAttribute="trailing" constant="70" id="Ufh-ix-Vka"/>
+                            <constraint firstItem="XjL-SP-lqz" firstAttribute="top" secondItem="DGw-tj-9VM" secondAttribute="bottom" constant="8" symbolic="YES" id="YSA-PX-W1M"/>
+                            <constraint firstItem="CpU-LY-iS3" firstAttribute="leading" secondItem="nOA-3B-poi" secondAttribute="leading" constant="70" id="Yi1-aA-rYj"/>
+                            <constraint firstItem="nOA-3B-poi" firstAttribute="trailing" secondItem="DGw-tj-9VM" secondAttribute="trailing" constant="70" id="aoR-1N-br4"/>
+                            <constraint firstItem="CpU-LY-iS3" firstAttribute="top" secondItem="XjL-SP-lqz" secondAttribute="bottom" constant="8" symbolic="YES" id="bd8-QT-DHe"/>
+                            <constraint firstItem="XjL-SP-lqz" firstAttribute="leading" secondItem="nOA-3B-poi" secondAttribute="leading" constant="70" id="ceG-sq-hnZ"/>
+                            <constraint firstItem="nOA-3B-poi" firstAttribute="bottom" secondItem="CpU-LY-iS3" secondAttribute="bottom" constant="101" id="dmW-nF-Nf7"/>
+                            <constraint firstItem="DGw-tj-9VM" firstAttribute="top" secondItem="nOA-3B-poi" secondAttribute="top" constant="25" id="mhX-IE-3ov"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="5Gc-c3-pIp" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-2650.7246376811595" y="205.58035714285714"/>
+        </scene>
+        <!--View Controller3-->
+        <scene sceneID="Nv0-Ru-Sqm">
+            <objects>
+                <viewController id="qz6-gR-ZOQ" customClass="ViewController3" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="nRl-Js-i5t">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Our Products" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3IE-ey-s4I">
+                                <rect key="frame" x="70" y="59" width="274" height="38"/>
+                                <fontDescription key="fontDescription" name="Didot" family="Didot" pointSize="30"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HCN-84-wKy">
+                                <rect key="frame" x="70" y="826" width="274" height="46"/>
+                                <color key="tintColor" red="0.57874745130000005" green="0.32151988149999999" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Menu">
+                                    <fontDescription key="titleFontDescription" name="Didot" family="Didot" pointSize="25"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <segue destination="4GZ-uc-oR4" kind="presentation" id="Aqo-m2-VAg"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KUy-AG-z85">
+                                <rect key="frame" x="70" y="102" width="274" height="40"/>
+                                <color key="tintColor" red="0.57874745130000005" green="0.32151988149999999" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="New">
+                                    <fontDescription key="titleFontDescription" name="Didot-Bold" family="Didot" pointSize="20"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <segue destination="7oW-Jk-djy" kind="presentation" id="b3K-fh-UOW"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dMi-FZ-WEZ">
+                                <rect key="frame" x="70" y="147" width="274" height="40"/>
+                                <color key="tintColor" red="0.57874745130000005" green="0.32151988149999999" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Best Seller">
+                                    <fontDescription key="titleFontDescription" name="Didot-Bold" family="Didot" pointSize="20"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <segue destination="uFX-yO-1Xv" kind="presentation" id="Xuy-v3-EEl"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yax-yy-lK9">
+                                <rect key="frame" x="70" y="192" width="274" height="40"/>
+                                <color key="tintColor" red="0.57874745130000005" green="0.32151988149999999" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Skincare">
+                                    <fontDescription key="titleFontDescription" name="Didot-Bold" family="Didot" pointSize="20"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <segue destination="Vsr-0o-WZ7" kind="presentation" id="AAR-D0-Oe4"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dtd-mt-YEP">
+                                <rect key="frame" x="70" y="237" width="274" height="40"/>
+                                <color key="tintColor" red="0.57874745130000005" green="0.32151988149999999" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Makeup">
+                                    <fontDescription key="titleFontDescription" name="Didot-Bold" family="Didot" pointSize="20"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <segue destination="2ie-C2-151" kind="presentation" id="ORr-G5-H1I"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ySN-fs-zSI">
+                                <rect key="frame" x="70" y="282" width="274" height="40"/>
+                                <color key="tintColor" red="0.57874745130000005" green="0.32151988149999999" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Fragrance">
+                                    <fontDescription key="titleFontDescription" name="Didot-Bold" family="Didot" pointSize="20"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <segue destination="DeI-z5-0rK" kind="presentation" id="7Hb-p6-A6g"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pNm-Ct-lSr">
+                                <rect key="frame" x="70" y="327" width="274" height="40"/>
+                                <color key="tintColor" red="0.57874745130000005" green="0.32151988149999999" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Sets &amp; Gifts">
+                                    <fontDescription key="titleFontDescription" name="Didot-Bold" family="Didot" pointSize="20"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <segue destination="X9E-70-5pv" kind="presentation" id="HFL-Tf-jwo"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Q7W-Eb-Qzx">
+                                <rect key="frame" x="70" y="372" width="274" height="40"/>
+                                <color key="tintColor" red="0.57874745130000005" green="0.32151988149999999" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Re-Nutriv">
+                                    <fontDescription key="titleFontDescription" name="Didot-Bold" family="Didot" pointSize="20"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <segue destination="Dvk-B8-iaQ" kind="presentation" id="VBS-oi-nOo"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ich-qo-9dQ">
+                                <rect key="frame" x="70" y="417" width="274" height="40"/>
+                                <color key="tintColor" red="0.57874745130000005" green="0.32151988149999999" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Aerin">
+                                    <fontDescription key="titleFontDescription" name="Didot-Bold" family="Didot" pointSize="20"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <segue destination="osz-El-Mcp" kind="presentation" id="kZo-rm-EhK"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nPZ-aD-kP9">
+                                <rect key="frame" x="70" y="462" width="274" height="40"/>
+                                <color key="tintColor" red="0.57874745130000005" green="0.32151988149999999" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Discover">
+                                    <fontDescription key="titleFontDescription" name="Didot-Bold" family="Didot" pointSize="20"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <segue destination="pog-JB-Ulc" kind="presentation" modalTransitionStyle="coverVertical" id="wua-gQ-R9e"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JM9-H8-TbI">
+                                <rect key="frame" x="70" y="507" width="274" height="40"/>
+                                <color key="tintColor" red="0.57874745130000005" green="0.32151988149999999" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Services">
+                                    <fontDescription key="titleFontDescription" name="Didot-Bold" family="Didot" pointSize="20"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <segue destination="7Jg-fR-1Sq" kind="presentation" modalTransitionStyle="coverVertical" id="A7J-Ww-hTw"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="61d-33-dvs">
+                                <rect key="frame" x="70" y="552" width="274" height="40"/>
+                                <color key="tintColor" red="0.57874745130000005" green="0.32151988149999999" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Offers">
+                                    <fontDescription key="titleFontDescription" name="Didot-Bold" family="Didot" pointSize="20"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <segue destination="M5e-ke-OBB" kind="presentation" modalTransitionStyle="coverVertical" id="7Jk-Rf-7U4"/>
+                                </connections>
+                            </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="6" translatesAutoresizingMaskIntoConstraints="NO" id="x6G-d3-i6c">
+                                <rect key="frame" x="70" y="626" width="274" height="192"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="192" id="bkB-TE-oNO"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="2Ug-lZ-PVr"/>
+                        <color key="backgroundColor" red="0.88150376080000004" green="0.86679221880000001" blue="0.83059246929999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <constraints>
+                            <constraint firstItem="pNm-Ct-lSr" firstAttribute="leading" secondItem="2Ug-lZ-PVr" secondAttribute="leading" constant="70" id="1kC-Ma-rXZ"/>
+                            <constraint firstItem="2Ug-lZ-PVr" firstAttribute="trailing" secondItem="dtd-mt-YEP" secondAttribute="trailing" constant="70" id="3Ge-rd-MYL"/>
+                            <constraint firstItem="2Ug-lZ-PVr" firstAttribute="trailing" secondItem="dMi-FZ-WEZ" secondAttribute="trailing" constant="70" id="3UN-a9-BXz"/>
+                            <constraint firstItem="Q7W-Eb-Qzx" firstAttribute="leading" secondItem="2Ug-lZ-PVr" secondAttribute="leading" constant="70" id="4z9-9B-KMe"/>
+                            <constraint firstItem="3IE-ey-s4I" firstAttribute="leading" secondItem="2Ug-lZ-PVr" secondAttribute="leading" constant="70" id="6U3-gf-9OA"/>
+                            <constraint firstItem="HCN-84-wKy" firstAttribute="top" secondItem="x6G-d3-i6c" secondAttribute="bottom" constant="8" symbolic="YES" id="6jU-2I-n6F"/>
+                            <constraint firstItem="2Ug-lZ-PVr" firstAttribute="trailing" secondItem="Q7W-Eb-Qzx" secondAttribute="trailing" constant="70" id="8Z2-e9-pFQ"/>
+                            <constraint firstItem="3IE-ey-s4I" firstAttribute="top" secondItem="2Ug-lZ-PVr" secondAttribute="top" constant="15" id="Ah7-Ii-clN"/>
+                            <constraint firstItem="nPZ-aD-kP9" firstAttribute="top" secondItem="Ich-qo-9dQ" secondAttribute="bottom" constant="5" id="DWh-I5-yeq"/>
+                            <constraint firstItem="2Ug-lZ-PVr" firstAttribute="trailing" secondItem="nPZ-aD-kP9" secondAttribute="trailing" constant="70" id="Jsz-SA-7jH"/>
+                            <constraint firstItem="2Ug-lZ-PVr" firstAttribute="trailing" secondItem="KUy-AG-z85" secondAttribute="trailing" constant="70" id="Mik-Yr-l0i"/>
+                            <constraint firstItem="JM9-H8-TbI" firstAttribute="top" secondItem="nPZ-aD-kP9" secondAttribute="bottom" constant="5" id="OPY-Kb-43t"/>
+                            <constraint firstItem="Ich-qo-9dQ" firstAttribute="top" secondItem="Q7W-Eb-Qzx" secondAttribute="bottom" constant="5" id="Pw6-wz-lXq"/>
+                            <constraint firstItem="2Ug-lZ-PVr" firstAttribute="trailing" secondItem="x6G-d3-i6c" secondAttribute="trailing" constant="70" id="T27-rd-O17"/>
+                            <constraint firstItem="2Ug-lZ-PVr" firstAttribute="trailing" secondItem="3IE-ey-s4I" secondAttribute="trailing" constant="70" id="TIs-cd-ezo"/>
+                            <constraint firstItem="2Ug-lZ-PVr" firstAttribute="trailing" secondItem="ySN-fs-zSI" secondAttribute="trailing" constant="70" id="XoE-fg-qx7"/>
+                            <constraint firstItem="Ich-qo-9dQ" firstAttribute="leading" secondItem="2Ug-lZ-PVr" secondAttribute="leading" constant="70" id="YpX-7c-aub"/>
+                            <constraint firstItem="2Ug-lZ-PVr" firstAttribute="trailing" secondItem="pNm-Ct-lSr" secondAttribute="trailing" constant="70" id="bTu-5T-t92"/>
+                            <constraint firstItem="ySN-fs-zSI" firstAttribute="top" secondItem="dtd-mt-YEP" secondAttribute="bottom" constant="5" id="dCs-Ax-MU6"/>
+                            <constraint firstItem="yax-yy-lK9" firstAttribute="top" secondItem="dMi-FZ-WEZ" secondAttribute="bottom" constant="5" id="dv8-O4-O2h"/>
+                            <constraint firstItem="2Ug-lZ-PVr" firstAttribute="trailing" secondItem="yax-yy-lK9" secondAttribute="trailing" constant="70" id="e10-x9-o9W"/>
+                            <constraint firstItem="HCN-84-wKy" firstAttribute="bottom" secondItem="2Ug-lZ-PVr" secondAttribute="bottom" constant="10" id="fGK-lV-5nR"/>
+                            <constraint firstItem="dtd-mt-YEP" firstAttribute="top" secondItem="yax-yy-lK9" secondAttribute="bottom" constant="5" id="hcN-13-Ush"/>
+                            <constraint firstItem="JM9-H8-TbI" firstAttribute="leading" secondItem="2Ug-lZ-PVr" secondAttribute="leading" constant="70" id="iEb-PP-Jev"/>
+                            <constraint firstItem="2Ug-lZ-PVr" firstAttribute="trailing" secondItem="HCN-84-wKy" secondAttribute="trailing" constant="70" id="ix4-a8-pVr"/>
+                            <constraint firstItem="2Ug-lZ-PVr" firstAttribute="trailing" secondItem="Ich-qo-9dQ" secondAttribute="trailing" constant="70" id="jpo-6b-9L3"/>
+                            <constraint firstItem="dMi-FZ-WEZ" firstAttribute="leading" secondItem="2Ug-lZ-PVr" secondAttribute="leading" constant="70" id="juB-4l-vJG"/>
+                            <constraint firstItem="x6G-d3-i6c" firstAttribute="leading" secondItem="2Ug-lZ-PVr" secondAttribute="leading" constant="70" id="kDY-Bv-NJb"/>
+                            <constraint firstItem="61d-33-dvs" firstAttribute="leading" secondItem="2Ug-lZ-PVr" secondAttribute="leading" constant="70" id="kZw-1x-rFC"/>
+                            <constraint firstItem="Q7W-Eb-Qzx" firstAttribute="top" secondItem="pNm-Ct-lSr" secondAttribute="bottom" constant="5" id="kwK-ia-wld"/>
+                            <constraint firstItem="HCN-84-wKy" firstAttribute="leading" secondItem="2Ug-lZ-PVr" secondAttribute="leading" constant="70" id="mOs-ww-EED"/>
+                            <constraint firstItem="61d-33-dvs" firstAttribute="top" secondItem="JM9-H8-TbI" secondAttribute="bottom" constant="5" id="mbx-bX-EKM"/>
+                            <constraint firstItem="pNm-Ct-lSr" firstAttribute="top" secondItem="ySN-fs-zSI" secondAttribute="bottom" constant="5" id="our-nj-DJN"/>
+                            <constraint firstItem="dtd-mt-YEP" firstAttribute="leading" secondItem="2Ug-lZ-PVr" secondAttribute="leading" constant="70" id="qNq-Kw-yvR"/>
+                            <constraint firstItem="KUy-AG-z85" firstAttribute="leading" secondItem="2Ug-lZ-PVr" secondAttribute="leading" constant="70" id="rBv-W1-Ice"/>
+                            <constraint firstItem="yax-yy-lK9" firstAttribute="leading" secondItem="2Ug-lZ-PVr" secondAttribute="leading" constant="70" id="rJX-4a-z2w"/>
+                            <constraint firstItem="nPZ-aD-kP9" firstAttribute="leading" secondItem="2Ug-lZ-PVr" secondAttribute="leading" constant="70" id="sEH-9p-i3v"/>
+                            <constraint firstItem="ySN-fs-zSI" firstAttribute="leading" secondItem="2Ug-lZ-PVr" secondAttribute="leading" constant="70" id="vmu-ek-PrR"/>
+                            <constraint firstItem="dMi-FZ-WEZ" firstAttribute="top" secondItem="KUy-AG-z85" secondAttribute="bottom" constant="5" id="w59-29-9Ix"/>
+                            <constraint firstItem="KUy-AG-z85" firstAttribute="top" secondItem="3IE-ey-s4I" secondAttribute="bottom" constant="5" id="w7l-MB-gpH"/>
+                            <constraint firstItem="2Ug-lZ-PVr" firstAttribute="trailing" secondItem="61d-33-dvs" secondAttribute="trailing" constant="70" id="wdT-wu-LYU"/>
+                            <constraint firstItem="2Ug-lZ-PVr" firstAttribute="trailing" secondItem="JM9-H8-TbI" secondAttribute="trailing" constant="70" id="zoC-zQ-rB8"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="XmY-kq-92K" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-294.20289855072468" y="954.91071428571422"/>
+        </scene>
+        <!--View Controller4-->
+        <scene sceneID="W08-WD-rdO">
+            <objects>
+                <viewController id="yz8-Ab-H91" customClass="ViewController4" customModule="EsteeLauderProject" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="32W-Ys-yYX">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Learn More" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ufP-Iu-hV8">
+                                <rect key="frame" x="70" y="59" width="274" height="38"/>
+                                <fontDescription key="fontDescription" name="Didot" family="Didot" pointSize="30"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Un8-Be-9wh">
+                                <rect key="frame" x="70" y="826" width="274" height="46"/>
+                                <color key="tintColor" red="0.57874745130000005" green="0.32151988149999999" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Menu">
+                                    <fontDescription key="titleFontDescription" name="Didot" family="Didot" pointSize="25"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <segue destination="4GZ-uc-oR4" kind="presentation" id="ett-eB-SgC"/>
+                                </connections>
+                            </button>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="oLL-fd-TiM">
+                                <rect key="frame" x="70" y="105" width="274" height="516"/>
+                                <color key="backgroundColor" red="0.88150376080000004" green="0.86679221880000001" blue="0.83059246929999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="516" id="wsQ-KG-69S"/>
+                                </constraints>
+                                <string key="text">Track My Order
+https://www.esteelauder.com/track
+
+Returns &amp; Exchanges
+https://www.esteelauder.com/customer-service/returns
+
+FAQs
+https://www.esteelauder.com/customer-service/faqs
+
+Privacy Policy
+https://www.esteelauder.com/privacy
+
+Terms &amp; Conditions
+https://www.esteelauder.com/terms-conditions</string>
+                                <color key="textColor" systemColor="labelColor"/>
+                                <fontDescription key="fontDescription" name="Didot" family="Didot" pointSize="20"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                <dataDetectorType key="dataDetectorTypes" link="YES"/>
+                            </textView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="11" translatesAutoresizingMaskIntoConstraints="NO" id="Dwz-dg-Rb4">
+                                <rect key="frame" x="70" y="629" width="274" height="189"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="189" id="sE1-BO-u1X"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="5ie-qM-pji"/>
+                        <color key="backgroundColor" red="0.88150376080000004" green="0.86679221880000001" blue="0.83059246929999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <constraints>
+                            <constraint firstItem="Dwz-dg-Rb4" firstAttribute="leading" secondItem="5ie-qM-pji" secondAttribute="leading" constant="70" id="Lr0-sR-f04"/>
+                            <constraint firstItem="5ie-qM-pji" firstAttribute="trailing" secondItem="ufP-Iu-hV8" secondAttribute="trailing" constant="70" id="VgJ-gr-VhG"/>
+                            <constraint firstItem="Dwz-dg-Rb4" firstAttribute="top" secondItem="oLL-fd-TiM" secondAttribute="bottom" constant="8" symbolic="YES" id="WrC-Nw-0kz"/>
+                            <constraint firstItem="Un8-Be-9wh" firstAttribute="leading" secondItem="5ie-qM-pji" secondAttribute="leading" constant="70" id="YiB-lW-2LP"/>
+                            <constraint firstItem="ufP-Iu-hV8" firstAttribute="top" secondItem="5ie-qM-pji" secondAttribute="top" constant="15" id="an4-FQ-lD8"/>
+                            <constraint firstItem="Un8-Be-9wh" firstAttribute="bottom" secondItem="5ie-qM-pji" secondAttribute="bottom" constant="10" id="beB-bR-aNw"/>
+                            <constraint firstItem="5ie-qM-pji" firstAttribute="trailing" secondItem="oLL-fd-TiM" secondAttribute="trailing" constant="70" id="fb3-Ak-Dms"/>
+                            <constraint firstItem="5ie-qM-pji" firstAttribute="trailing" secondItem="Dwz-dg-Rb4" secondAttribute="trailing" constant="70" id="kDa-GZ-Q9W"/>
+                            <constraint firstItem="oLL-fd-TiM" firstAttribute="top" secondItem="ufP-Iu-hV8" secondAttribute="bottom" constant="8" symbolic="YES" id="lid-xe-rf8"/>
+                            <constraint firstItem="5ie-qM-pji" firstAttribute="trailing" secondItem="Un8-Be-9wh" secondAttribute="trailing" constant="70" id="lnQ-4Y-vEF"/>
+                            <constraint firstItem="ufP-Iu-hV8" firstAttribute="leading" secondItem="5ie-qM-pji" secondAttribute="leading" constant="70" id="nwR-eN-paF"/>
+                            <constraint firstItem="oLL-fd-TiM" firstAttribute="leading" secondItem="5ie-qM-pji" secondAttribute="leading" constant="70" id="teE-Pv-Lla"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="learnMoreButton" destination="ufP-Iu-hV8" id="OgE-kY-16l"/>
+                        <outlet property="menuButton4" destination="Un8-Be-9wh" id="mjd-fg-yqV"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="k5b-Dy-kJg" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1402.8985507246377" y="965.625"/>
+        </scene>
+        <!--View Controller Best Seller-->
+        <scene sceneID="vb7-vH-w3u">
+            <objects>
+                <viewController id="uFX-yO-1Xv" customClass="ViewControllerBestSeller" customModule="EsteeLauderProject" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="9iz-iA-vqZ">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Best Seller" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ruk-u3-5Kn">
+                                <rect key="frame" x="70" y="69" width="274" height="66"/>
+                                <fontDescription key="fontDescription" name="Didot" family="Didot" pointSize="25"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Screen Shot 2022-08-13 at 10.58.20 PM" translatesAutoresizingMaskIntoConstraints="NO" id="rzB-U1-RiJ">
+                                <rect key="frame" x="70" y="143" width="274" height="415"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="415" id="ISz-lU-UEx"/>
+                                </constraints>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="Ntx-gx-b4D">
+                                <rect key="frame" x="70" y="566" width="274" height="128"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="128" id="ZKs-nY-f4T"/>
+                                </constraints>
+                                <string key="text">https://www.esteelauder.com/product/689/77491/product-catalog/skincare/repair-serum/advanced-night-repair-serum/synchronized-multi-recovery-complex?size=1.7_oz.</string>
+                                <color key="textColor" systemColor="labelColor"/>
+                                <fontDescription key="fontDescription" name="Didot" family="Didot" pointSize="15"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                <dataDetectorType key="dataDetectorTypes" link="YES"/>
+                            </textView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="WE6-vO-l0y"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="rzB-U1-RiJ" firstAttribute="top" secondItem="ruk-u3-5Kn" secondAttribute="bottom" constant="8" symbolic="YES" id="9MY-nr-WVa"/>
+                            <constraint firstItem="ruk-u3-5Kn" firstAttribute="top" secondItem="WE6-vO-l0y" secondAttribute="top" constant="25" id="HzU-qK-UhV"/>
+                            <constraint firstItem="Ntx-gx-b4D" firstAttribute="top" secondItem="rzB-U1-RiJ" secondAttribute="bottom" constant="8" symbolic="YES" id="IEw-tM-VhQ"/>
+                            <constraint firstItem="WE6-vO-l0y" firstAttribute="trailing" secondItem="rzB-U1-RiJ" secondAttribute="trailing" constant="70" id="J5g-Me-gRh"/>
+                            <constraint firstItem="WE6-vO-l0y" firstAttribute="trailing" secondItem="Ntx-gx-b4D" secondAttribute="trailing" constant="70" id="PhZ-hL-3Tl"/>
+                            <constraint firstItem="rzB-U1-RiJ" firstAttribute="leading" secondItem="WE6-vO-l0y" secondAttribute="leading" constant="70" id="Ukb-b8-75U"/>
+                            <constraint firstItem="WE6-vO-l0y" firstAttribute="bottom" secondItem="Ntx-gx-b4D" secondAttribute="bottom" constant="148" id="VkE-2A-e2v"/>
+                            <constraint firstItem="ruk-u3-5Kn" firstAttribute="leading" secondItem="WE6-vO-l0y" secondAttribute="leading" constant="70" id="cfd-Aa-IGB"/>
+                            <constraint firstItem="WE6-vO-l0y" firstAttribute="trailing" secondItem="ruk-u3-5Kn" secondAttribute="trailing" constant="70" id="vPf-VS-1tq"/>
+                            <constraint firstItem="Ntx-gx-b4D" firstAttribute="leading" secondItem="WE6-vO-l0y" secondAttribute="leading" constant="70" id="wLo-WT-iLK"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-qR-LjZ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-2030.4347826086957" y="205.58035714285714"/>
+        </scene>
+        <!--View Controller Skincare-->
+        <scene sceneID="LFr-fp-RYl">
+            <objects>
+                <viewController id="Vsr-0o-WZ7" customClass="ViewControllerSkincare" customModule="EsteeLauderProject" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="OsU-mo-Bm2">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Skincare" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tSJ-sw-LFN">
+                                <rect key="frame" x="70" y="69" width="274" height="66"/>
+                                <fontDescription key="fontDescription" name="Didot" family="Didot" pointSize="25"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Screen Shot 2022-08-13 at 10.58.33 PM" translatesAutoresizingMaskIntoConstraints="NO" id="lpx-yp-stq">
+                                <rect key="frame" x="70" y="143" width="274" height="468"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="468" id="KdJ-ZP-iDk"/>
+                                </constraints>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="Bos-5S-NEt">
+                                <rect key="frame" x="70" y="619" width="274" height="128"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="128" id="Y5o-uq-Vj0"/>
+                                </constraints>
+                                <string key="text">https://www.esteelauder.com/product/689/77491/product-catalog/skincare/repair-serum/advanced-night-repair-serum/synchronized-multi-recovery-complex?size=1.7_oz.</string>
+                                <color key="textColor" systemColor="labelColor"/>
+                                <fontDescription key="fontDescription" name="Didot" family="Didot" pointSize="15"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                <dataDetectorType key="dataDetectorTypes" link="YES"/>
+                            </textView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="tLx-3Y-dl8"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="tSJ-sw-LFN" firstAttribute="leading" secondItem="tLx-3Y-dl8" secondAttribute="leading" constant="70" id="6i0-KG-lhT"/>
+                            <constraint firstItem="tLx-3Y-dl8" firstAttribute="trailing" secondItem="lpx-yp-stq" secondAttribute="trailing" constant="70" id="7ax-Ha-3sK"/>
+                            <constraint firstItem="tLx-3Y-dl8" firstAttribute="bottom" secondItem="Bos-5S-NEt" secondAttribute="bottom" constant="95" id="8Sn-zq-eRc"/>
+                            <constraint firstItem="tSJ-sw-LFN" firstAttribute="top" secondItem="tLx-3Y-dl8" secondAttribute="top" constant="25" id="8d3-qb-jfz"/>
+                            <constraint firstItem="tLx-3Y-dl8" firstAttribute="trailing" secondItem="Bos-5S-NEt" secondAttribute="trailing" constant="70" id="I7O-5V-xpO"/>
+                            <constraint firstItem="tLx-3Y-dl8" firstAttribute="trailing" secondItem="tSJ-sw-LFN" secondAttribute="trailing" constant="70" id="JMM-3r-X5S"/>
+                            <constraint firstItem="lpx-yp-stq" firstAttribute="top" secondItem="tSJ-sw-LFN" secondAttribute="bottom" constant="8" symbolic="YES" id="T1G-tQ-mkz"/>
+                            <constraint firstItem="lpx-yp-stq" firstAttribute="leading" secondItem="tLx-3Y-dl8" secondAttribute="leading" constant="70" id="iBP-p7-h0j"/>
+                            <constraint firstItem="Bos-5S-NEt" firstAttribute="leading" secondItem="tLx-3Y-dl8" secondAttribute="leading" constant="70" id="iPy-xg-dSM"/>
+                            <constraint firstItem="Bos-5S-NEt" firstAttribute="top" secondItem="lpx-yp-stq" secondAttribute="bottom" constant="8" symbolic="YES" id="vR4-Rv-6Ck"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="usP-JT-tzk" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-2030.4347826086957" y="849.77678571428567"/>
+        </scene>
+        <!--View Controller Makeup-->
+        <scene sceneID="bzD-fD-FD6">
+            <objects>
+                <viewController id="2ie-C2-151" customClass="ViewControllerMakeup" customModule="EsteeLauderProject" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="0oJ-Zh-zyW">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Makeup" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="l7T-66-Nqr">
+                                <rect key="frame" x="70" y="69" width="274" height="66"/>
+                                <fontDescription key="fontDescription" name="Didot" family="Didot" pointSize="25"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Screen Shot 2022-08-13 at 10.58.45 PM" translatesAutoresizingMaskIntoConstraints="NO" id="nG1-cW-Ok5">
+                                <rect key="frame" x="70" y="143" width="274" height="471"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="471" id="wcO-sr-z5b"/>
+                                </constraints>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="05K-xf-qwA">
+                                <rect key="frame" x="70" y="622" width="274" height="128"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="128" id="KKe-7v-QED"/>
+                                </constraints>
+                                <string key="text">https://www.esteelauder.com/product/653/106065/product-catalog/sets-gifts/makeup-sets-gifts/pure-color-envy-matte-lipstick-trio/3-for-the-price-of-1</string>
+                                <color key="textColor" systemColor="labelColor"/>
+                                <fontDescription key="fontDescription" name="Didot" family="Didot" pointSize="15"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                <dataDetectorType key="dataDetectorTypes" link="YES"/>
+                            </textView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="w52-LF-QAb"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="w52-LF-QAb" firstAttribute="trailing" secondItem="l7T-66-Nqr" secondAttribute="trailing" constant="70" id="1J3-T2-GL3"/>
+                            <constraint firstItem="l7T-66-Nqr" firstAttribute="leading" secondItem="w52-LF-QAb" secondAttribute="leading" constant="70" id="1ew-ig-OHo"/>
+                            <constraint firstItem="w52-LF-QAb" firstAttribute="bottom" secondItem="05K-xf-qwA" secondAttribute="bottom" constant="92" id="COk-qs-Jtn"/>
+                            <constraint firstItem="l7T-66-Nqr" firstAttribute="top" secondItem="w52-LF-QAb" secondAttribute="top" constant="25" id="Dwp-E4-urR"/>
+                            <constraint firstItem="nG1-cW-Ok5" firstAttribute="top" secondItem="l7T-66-Nqr" secondAttribute="bottom" constant="8" symbolic="YES" id="OGI-aY-IqH"/>
+                            <constraint firstItem="05K-xf-qwA" firstAttribute="top" secondItem="nG1-cW-Ok5" secondAttribute="bottom" constant="8" symbolic="YES" id="WPN-IY-zwH"/>
+                            <constraint firstItem="w52-LF-QAb" firstAttribute="trailing" secondItem="05K-xf-qwA" secondAttribute="trailing" constant="70" id="iRI-sl-yLY"/>
+                            <constraint firstItem="nG1-cW-Ok5" firstAttribute="leading" secondItem="w52-LF-QAb" secondAttribute="leading" constant="70" id="mge-Sr-oAe"/>
+                            <constraint firstItem="w52-LF-QAb" firstAttribute="trailing" secondItem="nG1-cW-Ok5" secondAttribute="trailing" constant="70" id="nVO-FG-tkm"/>
+                            <constraint firstItem="05K-xf-qwA" firstAttribute="leading" secondItem="w52-LF-QAb" secondAttribute="leading" constant="70" id="uQg-fo-anX"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="47j-HJ-zBo" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-2030.4347826086957" y="1494.6428571428571"/>
+        </scene>
+        <!--View Controller Fragrance-->
+        <scene sceneID="j7K-EK-wNl">
+            <objects>
+                <viewController id="DeI-z5-0rK" customClass="ViewControllerFragrance" customModule="EsteeLauderProject" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="r5b-do-KaV">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Fragrance" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="p4o-F1-i3q">
+                                <rect key="frame" x="70" y="69" width="274" height="66"/>
+                                <fontDescription key="fontDescription" name="Didot" family="Didot" pointSize="25"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Screen Shot 2022-08-13 at 10.58.54 PM" translatesAutoresizingMaskIntoConstraints="NO" id="m4R-5F-Bo4">
+                                <rect key="frame" x="70" y="143" width="274" height="418"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="418" id="QpM-Qw-jHa"/>
+                                </constraints>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="cqX-Oe-zhz">
+                                <rect key="frame" x="70" y="569" width="274" height="128"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="128" id="LvS-s1-bJL"/>
+                                </constraints>
+                                <string key="text">https://www.esteelauder.com/product/630/100999/product-catalog/sets-gifts/fragrance-sets-gifts/beautiful-belle/romantic-promises</string>
+                                <color key="textColor" systemColor="labelColor"/>
+                                <fontDescription key="fontDescription" name="Didot" family="Didot" pointSize="15"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                <dataDetectorType key="dataDetectorTypes" link="YES"/>
+                            </textView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="Xe4-zq-RS4"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="cqX-Oe-zhz" firstAttribute="leading" secondItem="Xe4-zq-RS4" secondAttribute="leading" constant="70" id="G3d-4T-4wR"/>
+                            <constraint firstItem="m4R-5F-Bo4" firstAttribute="top" secondItem="p4o-F1-i3q" secondAttribute="bottom" constant="8" symbolic="YES" id="OKs-n0-DD3"/>
+                            <constraint firstItem="Xe4-zq-RS4" firstAttribute="trailing" secondItem="cqX-Oe-zhz" secondAttribute="trailing" constant="70" id="QHo-AW-PjC"/>
+                            <constraint firstItem="p4o-F1-i3q" firstAttribute="leading" secondItem="Xe4-zq-RS4" secondAttribute="leading" constant="70" id="S4D-TG-eY9"/>
+                            <constraint firstItem="m4R-5F-Bo4" firstAttribute="leading" secondItem="Xe4-zq-RS4" secondAttribute="leading" constant="70" id="Tf7-ml-yU9"/>
+                            <constraint firstItem="p4o-F1-i3q" firstAttribute="top" secondItem="Xe4-zq-RS4" secondAttribute="top" constant="25" id="f8U-sM-mL4"/>
+                            <constraint firstItem="cqX-Oe-zhz" firstAttribute="top" secondItem="m4R-5F-Bo4" secondAttribute="bottom" constant="8" symbolic="YES" id="fVF-1A-Qcy"/>
+                            <constraint firstItem="Xe4-zq-RS4" firstAttribute="trailing" secondItem="m4R-5F-Bo4" secondAttribute="trailing" constant="70" id="gzZ-HR-eGC"/>
+                            <constraint firstItem="Xe4-zq-RS4" firstAttribute="bottom" secondItem="cqX-Oe-zhz" secondAttribute="bottom" constant="145" id="l5c-Ai-egG"/>
+                            <constraint firstItem="Xe4-zq-RS4" firstAttribute="trailing" secondItem="p4o-F1-i3q" secondAttribute="trailing" constant="70" id="zSS-5A-Uvg"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="aCZ-qE-q1v" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-2649.275362318841" y="-443.30357142857139"/>
+        </scene>
+        <!--View Controller New-->
+        <scene sceneID="cTg-0k-TTw">
+            <objects>
+                <viewController id="nZQ-hH-5ht" customClass="ViewControllerNew" customModule="EsteeLauderProject" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="nuH-hm-uDf">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="New" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DZY-9U-vxJ">
+                                <rect key="frame" x="70" y="69" width="274" height="32"/>
+                                <fontDescription key="fontDescription" name="Didot" family="Didot" pointSize="25"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Screen Shot 2022-08-13 at 10.57.52 PM" translatesAutoresizingMaskIntoConstraints="NO" id="5bC-Mw-mAo">
+                                <rect key="frame" x="87" y="109" width="239" height="422"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UBI-XU-JjH">
+                                <rect key="frame" x="88" y="109" width="239" height="422"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain">
+                                    <string key="title">https://www.esteelauder.com/product/707/105359/product-catalog/sets-gifts/skincare-sets-gifts/major-eye-impact/repair-hydrate-skincare-set</string>
+                                    <fontDescription key="titleFontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="30"/>
+                                </buttonConfiguration>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="DJc-tb-zcl"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="DZY-9U-vxJ" firstAttribute="leading" secondItem="DJc-tb-zcl" secondAttribute="leading" constant="70" id="Jt7-Td-mLf"/>
+                            <constraint firstItem="DZY-9U-vxJ" firstAttribute="top" secondItem="DJc-tb-zcl" secondAttribute="top" constant="25" id="hwU-dy-CJm"/>
+                            <constraint firstItem="DJc-tb-zcl" firstAttribute="trailing" secondItem="DZY-9U-vxJ" secondAttribute="trailing" constant="70" id="rkn-ab-Y7T"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="X62-Ds-vqV" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-2030.4347826086957" y="-443.30357142857139"/>
+        </scene>
+        <!--View Controller Re Nutriv-->
+        <scene sceneID="ewG-bP-FZ0">
+            <objects>
+                <viewController id="Dvk-B8-iaQ" customClass="ViewControllerReNutriv" customModule="EsteeLauderProject" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="n1R-ow-tE2">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Re-Nutriv" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WKU-Hp-EdZ">
+                                <rect key="frame" x="70" y="69" width="274" height="66"/>
+                                <fontDescription key="fontDescription" name="Didot" family="Didot" pointSize="25"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Screen Shot 2022-08-13 at 10.59.33 PM" translatesAutoresizingMaskIntoConstraints="NO" id="Msd-dE-O2I">
+                                <rect key="frame" x="70" y="143" width="274" height="307"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="307" id="di5-wZ-mma"/>
+                                </constraints>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="CqF-bn-U7F">
+                                <rect key="frame" x="70" y="458" width="274" height="128"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="128" id="AYF-gl-zEK"/>
+                                </constraints>
+                                <string key="text">https://www.esteelauder.com/product/679/101112/product-catalog/re-nutriv/re-nutriv-repair-serum/re-nutriv/ultimate-diamond-transformative-brilliance-serum</string>
+                                <color key="textColor" systemColor="labelColor"/>
+                                <fontDescription key="fontDescription" name="Didot" family="Didot" pointSize="15"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                <dataDetectorType key="dataDetectorTypes" link="YES"/>
+                            </textView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="ut5-6v-ZF0"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="WKU-Hp-EdZ" firstAttribute="top" secondItem="ut5-6v-ZF0" secondAttribute="top" constant="25" id="IGA-BZ-cVM"/>
+                            <constraint firstItem="WKU-Hp-EdZ" firstAttribute="leading" secondItem="ut5-6v-ZF0" secondAttribute="leading" constant="70" id="Jcx-Rv-vJk"/>
+                            <constraint firstItem="CqF-bn-U7F" firstAttribute="leading" secondItem="ut5-6v-ZF0" secondAttribute="leading" constant="70" id="U3X-By-h1Q"/>
+                            <constraint firstItem="ut5-6v-ZF0" firstAttribute="trailing" secondItem="Msd-dE-O2I" secondAttribute="trailing" constant="70" id="afG-UX-8h8"/>
+                            <constraint firstItem="Msd-dE-O2I" firstAttribute="top" secondItem="WKU-Hp-EdZ" secondAttribute="bottom" constant="8" symbolic="YES" id="ijd-TT-LDj"/>
+                            <constraint firstItem="Msd-dE-O2I" firstAttribute="leading" secondItem="ut5-6v-ZF0" secondAttribute="leading" constant="70" id="j5T-0P-tgK"/>
+                            <constraint firstItem="ut5-6v-ZF0" firstAttribute="trailing" secondItem="CqF-bn-U7F" secondAttribute="trailing" constant="70" id="jtx-6p-vt2"/>
+                            <constraint firstItem="CqF-bn-U7F" firstAttribute="top" secondItem="Msd-dE-O2I" secondAttribute="bottom" constant="8" symbolic="YES" id="meX-JS-6bd"/>
+                            <constraint firstItem="ut5-6v-ZF0" firstAttribute="bottom" secondItem="CqF-bn-U7F" secondAttribute="bottom" constant="256" id="tfV-J9-qn5"/>
+                            <constraint firstItem="ut5-6v-ZF0" firstAttribute="trailing" secondItem="WKU-Hp-EdZ" secondAttribute="trailing" constant="70" id="yAW-ZR-JaV"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="6ek-8f-zyj" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-2649.275362318841" y="849.77678571428567"/>
+        </scene>
+        <!--View Controller Aerin-->
+        <scene sceneID="4me-KV-ofL">
+            <objects>
+                <viewController id="osz-El-Mcp" customClass="ViewControllerAerin" customModule="EsteeLauderProject" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Hkw-Du-jvd">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Aerin" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UGv-Ub-EWJ">
+                                <rect key="frame" x="70" y="69" width="274" height="66"/>
+                                <fontDescription key="fontDescription" name="Didot" family="Didot" pointSize="25"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Screen Shot 2022-08-13 at 10.59.42 PM" translatesAutoresizingMaskIntoConstraints="NO" id="mO5-Yx-fbu">
+                                <rect key="frame" x="70" y="143" width="274" height="295"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="295" id="e7b-aW-NdB"/>
+                                </constraints>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="Qpk-Yb-NZW">
+                                <rect key="frame" x="70" y="446" width="274" height="130"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="130" id="Qqi-Sy-dwL"/>
+                                </constraints>
+                                <string key="text">https://www.esteelauder.com/product/33032/105566/product-catalog/aerin/aerin-rose-premier-collection/rose-de-grasse-joyful-bloom/rose-de-grasse-joyful-bloom/eau-de-parfum?size=1.7_oz.</string>
+                                <color key="textColor" systemColor="labelColor"/>
+                                <fontDescription key="fontDescription" name="Didot" family="Didot" pointSize="15"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                <dataDetectorType key="dataDetectorTypes" link="YES"/>
+                            </textView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="IWV-mU-Y5R"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="IWV-mU-Y5R" firstAttribute="bottom" secondItem="Qpk-Yb-NZW" secondAttribute="bottom" constant="266" id="5yK-Gu-RDg"/>
+                            <constraint firstItem="IWV-mU-Y5R" firstAttribute="trailing" secondItem="Qpk-Yb-NZW" secondAttribute="trailing" constant="70" id="8tS-zu-UFh"/>
+                            <constraint firstItem="IWV-mU-Y5R" firstAttribute="trailing" secondItem="UGv-Ub-EWJ" secondAttribute="trailing" constant="70" id="Gxc-ut-7Ym"/>
+                            <constraint firstItem="mO5-Yx-fbu" firstAttribute="top" secondItem="UGv-Ub-EWJ" secondAttribute="bottom" constant="8" symbolic="YES" id="SBA-iT-RrZ"/>
+                            <constraint firstItem="Qpk-Yb-NZW" firstAttribute="top" secondItem="mO5-Yx-fbu" secondAttribute="bottom" constant="8" symbolic="YES" id="ZLY-zV-tQ4"/>
+                            <constraint firstItem="UGv-Ub-EWJ" firstAttribute="leading" secondItem="IWV-mU-Y5R" secondAttribute="leading" constant="70" id="gim-JU-2Pb"/>
+                            <constraint firstItem="UGv-Ub-EWJ" firstAttribute="top" secondItem="IWV-mU-Y5R" secondAttribute="top" constant="25" id="nqz-We-YKw"/>
+                            <constraint firstItem="mO5-Yx-fbu" firstAttribute="leading" secondItem="IWV-mU-Y5R" secondAttribute="leading" constant="70" id="tIw-eN-b5V"/>
+                            <constraint firstItem="Qpk-Yb-NZW" firstAttribute="leading" secondItem="IWV-mU-Y5R" secondAttribute="leading" constant="70" id="xsi-bK-WZu"/>
+                            <constraint firstItem="IWV-mU-Y5R" firstAttribute="trailing" secondItem="mO5-Yx-fbu" secondAttribute="trailing" constant="70" id="zkg-gt-OfU"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="XXj-bP-qDM" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-2649.275362318841" y="1494.6428571428571"/>
+        </scene>
+        <!--View Controller New-->
+        <scene sceneID="WHE-2L-Saz">
+            <objects>
+                <viewController id="7oW-Jk-djy" customClass="ViewControllerNew" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="w2T-MZ-bDB">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="New" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Mcd-uo-THf">
+                                <rect key="frame" x="70" y="69" width="274" height="66"/>
+                                <fontDescription key="fontDescription" name="Didot" family="Didot" pointSize="25"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Screen Shot 2022-08-13 at 10.57.52 PM" translatesAutoresizingMaskIntoConstraints="NO" id="I8j-5f-oJt">
+                                <rect key="frame" x="70" y="143" width="274" height="455"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="455" id="jiw-pq-ArA"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4HW-I3-AyF">
+                                <rect key="frame" x="99" y="143" width="222" height="490"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="490" id="hWm-04-b8Z"/>
+                                </constraints>
+                                <color key="tintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain">
+                                    <string key="title">https://www.esteelauder.com/product/707/105359/product-catalog/sets-gifts/skincare-sets-gifts/major-eye-impact/repair-hydrate-skincare-set</string>
+                                    <fontDescription key="titleFontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="35"/>
+                                </buttonConfiguration>
+                            </button>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="6Al-Jo-zUo">
+                                <rect key="frame" x="70" y="606" width="274" height="128"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="128" id="ghs-Y8-aTq"/>
+                                </constraints>
+                                <string key="text">https://www.esteelauder.com/product/707/105359/product-catalog/sets-gifts/skincare-sets-gifts/major-eye-impact/repair-hydrate-skincare-set</string>
+                                <color key="textColor" systemColor="labelColor"/>
+                                <fontDescription key="fontDescription" name="Didot" family="Didot" pointSize="15"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                <dataDetectorType key="dataDetectorTypes" link="YES"/>
+                            </textView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="w9I-cS-xyt"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="w9I-cS-xyt" firstAttribute="trailing" secondItem="4HW-I3-AyF" secondAttribute="trailing" constant="93" id="7fd-SP-wLQ"/>
+                            <constraint firstItem="w9I-cS-xyt" firstAttribute="bottom" secondItem="6Al-Jo-zUo" secondAttribute="bottom" constant="108" id="BIm-k6-qxS"/>
+                            <constraint firstItem="I8j-5f-oJt" firstAttribute="top" secondItem="4HW-I3-AyF" secondAttribute="top" id="Em0-hY-9YH"/>
+                            <constraint firstItem="w9I-cS-xyt" firstAttribute="trailing" secondItem="6Al-Jo-zUo" secondAttribute="trailing" constant="70" id="Et9-mW-TeW"/>
+                            <constraint firstItem="Mcd-uo-THf" firstAttribute="top" secondItem="w9I-cS-xyt" secondAttribute="top" constant="25" id="N8u-H6-u3A"/>
+                            <constraint firstItem="Mcd-uo-THf" firstAttribute="leading" secondItem="w9I-cS-xyt" secondAttribute="leading" constant="70" id="aD3-SF-h0c"/>
+                            <constraint firstItem="6Al-Jo-zUo" firstAttribute="leading" secondItem="w9I-cS-xyt" secondAttribute="leading" constant="70" id="dcV-8t-e7d"/>
+                            <constraint firstItem="I8j-5f-oJt" firstAttribute="leading" secondItem="w9I-cS-xyt" secondAttribute="leading" constant="70" id="f5N-cg-Hpn"/>
+                            <constraint firstItem="6Al-Jo-zUo" firstAttribute="top" secondItem="I8j-5f-oJt" secondAttribute="bottom" constant="8" symbolic="YES" id="gem-D5-cR2"/>
+                            <constraint firstItem="I8j-5f-oJt" firstAttribute="top" secondItem="Mcd-uo-THf" secondAttribute="bottom" constant="8" symbolic="YES" id="gjq-Dk-ROA"/>
+                            <constraint firstItem="w9I-cS-xyt" firstAttribute="trailing" secondItem="Mcd-uo-THf" secondAttribute="trailing" constant="70" id="jsU-ad-ZzP"/>
+                            <constraint firstItem="w9I-cS-xyt" firstAttribute="trailing" secondItem="I8j-5f-oJt" secondAttribute="trailing" constant="70" id="m3M-mr-I9f"/>
+                            <constraint firstItem="4HW-I3-AyF" firstAttribute="leading" secondItem="w9I-cS-xyt" secondAttribute="leading" constant="99" id="tzP-su-iSA"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="bdy-Ge-8Ab" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-2030.4347826086957" y="-443.30357142857139"/>
+        </scene>
+        <!--View Controller Offers-->
+        <scene sceneID="GwF-dp-dZi">
+            <objects>
+                <viewController id="M5e-ke-OBB" customClass="ViewControllerOffers" customModule="EsteeLauderProject" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="6Nj-dt-733">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Offers" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LNa-93-GK3">
+                                <rect key="frame" x="70" y="69" width="274" height="66"/>
+                                <fontDescription key="fontDescription" name="Didot" family="Didot" pointSize="25"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="https://www.esteelauder.com/promotions" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="EXT-aR-Yda">
+                                <rect key="frame" x="70" y="143" width="274" height="128"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="128" id="mcl-32-7Us"/>
+                                </constraints>
+                                <color key="textColor" systemColor="labelColor"/>
+                                <fontDescription key="fontDescription" name="Didot" family="Didot" pointSize="15"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                <dataDetectorType key="dataDetectorTypes" link="YES"/>
+                            </textView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="1Ni-xQ-Hgs"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="1Ni-xQ-Hgs" firstAttribute="trailing" secondItem="LNa-93-GK3" secondAttribute="trailing" constant="70" id="0pn-3u-C8z"/>
+                            <constraint firstItem="LNa-93-GK3" firstAttribute="top" secondItem="1Ni-xQ-Hgs" secondAttribute="top" constant="25" id="6gh-O3-Dwv"/>
+                            <constraint firstItem="1Ni-xQ-Hgs" firstAttribute="trailing" secondItem="EXT-aR-Yda" secondAttribute="trailing" constant="70" id="A40-CN-0Iw"/>
+                            <constraint firstItem="EXT-aR-Yda" firstAttribute="leading" secondItem="1Ni-xQ-Hgs" secondAttribute="leading" constant="70" id="Sfw-sa-MDA"/>
+                            <constraint firstItem="EXT-aR-Yda" firstAttribute="top" secondItem="LNa-93-GK3" secondAttribute="bottom" constant="8" symbolic="YES" id="cY2-vP-mjO"/>
+                            <constraint firstItem="1Ni-xQ-Hgs" firstAttribute="bottom" secondItem="EXT-aR-Yda" secondAttribute="bottom" constant="571" id="xgp-2T-L9j"/>
+                            <constraint firstItem="LNa-93-GK3" firstAttribute="leading" secondItem="1Ni-xQ-Hgs" secondAttribute="leading" constant="70" id="zL4-i9-Pwl"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="2vW-aG-Cku" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="399" y="1765"/>
+        </scene>
+        <!--View Controller Services-->
+        <scene sceneID="MME-G3-h1V">
+            <objects>
+                <viewController id="7Jg-fR-1Sq" customClass="ViewControllerServices" customModule="EsteeLauderProject" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="mcR-b2-2Sc">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Services" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BiN-tH-11o">
+                                <rect key="frame" x="70" y="69" width="274" height="66"/>
+                                <fontDescription key="fontDescription" name="Didot" family="Didot" pointSize="25"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="https://www.esteelauder.com/virtual-beauty-services" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="fcZ-HW-xMK">
+                                <rect key="frame" x="70" y="143" width="274" height="128"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="128" id="Z2s-gz-2uz"/>
+                                </constraints>
+                                <color key="textColor" systemColor="labelColor"/>
+                                <fontDescription key="fontDescription" name="Didot" family="Didot" pointSize="15"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                <dataDetectorType key="dataDetectorTypes" link="YES"/>
+                            </textView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="30J-DL-bre"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="30J-DL-bre" firstAttribute="bottom" secondItem="fcZ-HW-xMK" secondAttribute="bottom" constant="571" id="MSe-eE-quq"/>
+                            <constraint firstItem="30J-DL-bre" firstAttribute="trailing" secondItem="BiN-tH-11o" secondAttribute="trailing" constant="70" id="RBU-ZB-hCh"/>
+                            <constraint firstItem="fcZ-HW-xMK" firstAttribute="leading" secondItem="30J-DL-bre" secondAttribute="leading" constant="70" id="WTO-zs-Zp0"/>
+                            <constraint firstItem="BiN-tH-11o" firstAttribute="leading" secondItem="30J-DL-bre" secondAttribute="leading" constant="70" id="ZuR-GP-ebR"/>
+                            <constraint firstItem="30J-DL-bre" firstAttribute="trailing" secondItem="fcZ-HW-xMK" secondAttribute="trailing" constant="70" id="hJr-f8-RnC"/>
+                            <constraint firstItem="BiN-tH-11o" firstAttribute="top" secondItem="30J-DL-bre" secondAttribute="top" constant="25" id="mql-cp-DBV"/>
+                            <constraint firstItem="fcZ-HW-xMK" firstAttribute="top" secondItem="BiN-tH-11o" secondAttribute="bottom" constant="8" symbolic="YES" id="v38-fZ-mrI"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="GfT-fH-jt3" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-294" y="1765"/>
+        </scene>
+        <!--View Controller Discover-->
+        <scene sceneID="1hF-on-sDc">
+            <objects>
+                <viewController id="pog-JB-Ulc" customClass="ViewControllerDiscover" customModule="EsteeLauderProject" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Gz6-zL-2bZ">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Discover" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="puH-fr-MoQ">
+                                <rect key="frame" x="70" y="69" width="274" height="66"/>
+                                <fontDescription key="fontDescription" name="Didot" family="Didot" pointSize="25"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="https://www.esteelauder.com/discover-now" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="4T7-Ir-jT9">
+                                <rect key="frame" x="70" y="143" width="274" height="128"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="128" id="8XM-iD-hUb"/>
+                                </constraints>
+                                <color key="textColor" systemColor="labelColor"/>
+                                <fontDescription key="fontDescription" name="Didot" family="Didot" pointSize="15"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                <dataDetectorType key="dataDetectorTypes" link="YES"/>
+                            </textView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="dLX-ff-evf"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="4T7-Ir-jT9" firstAttribute="top" secondItem="puH-fr-MoQ" secondAttribute="bottom" constant="8" symbolic="YES" id="GEX-iO-vfd"/>
+                            <constraint firstItem="puH-fr-MoQ" firstAttribute="top" secondItem="dLX-ff-evf" secondAttribute="top" constant="25" id="Mxp-ko-u4i"/>
+                            <constraint firstItem="4T7-Ir-jT9" firstAttribute="leading" secondItem="dLX-ff-evf" secondAttribute="leading" constant="70" id="XhQ-dD-pHf"/>
+                            <constraint firstItem="dLX-ff-evf" firstAttribute="bottom" secondItem="4T7-Ir-jT9" secondAttribute="bottom" constant="571" id="ZQT-8i-iJf"/>
+                            <constraint firstItem="dLX-ff-evf" firstAttribute="trailing" secondItem="puH-fr-MoQ" secondAttribute="trailing" constant="70" id="eIt-Y4-Nan"/>
+                            <constraint firstItem="dLX-ff-evf" firstAttribute="trailing" secondItem="4T7-Ir-jT9" secondAttribute="trailing" constant="70" id="oEu-vr-vhf"/>
+                            <constraint firstItem="puH-fr-MoQ" firstAttribute="leading" secondItem="dLX-ff-evf" secondAttribute="leading" constant="70" id="tye-g7-3wK"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="9CX-4D-ND5" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-978" y="1765"/>
+        </scene>
+    </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="yFs-Dc-023"/>
+    </inferredMetricsTieBreakers>
+    <resources>
+        <image name="10" width="1080" height="1080"/>
+        <image name="11" width="1080" height="1080"/>
+        <image name="5" width="4500" height="4500"/>
+        <image name="6" width="4500" height="4500"/>
+        <image name="Screen Shot 2022-08-13 at 10.57.52 PM" width="582" height="1118"/>
+        <image name="Screen Shot 2022-08-13 at 10.58.20 PM" width="582" height="1118"/>
+        <image name="Screen Shot 2022-08-13 at 10.58.33 PM" width="582" height="1118"/>
+        <image name="Screen Shot 2022-08-13 at 10.58.45 PM" width="582" height="1118"/>
+        <image name="Screen Shot 2022-08-13 at 10.58.54 PM" width="582" height="1118"/>
+        <image name="Screen Shot 2022-08-13 at 10.59.07 PM" width="582" height="1118"/>
+        <image name="Screen Shot 2022-08-13 at 10.59.33 PM" width="1088" height="1326"/>
+        <image name="Screen Shot 2022-08-13 at 10.59.42 PM" width="1088" height="1326"/>
+        <namedColor name="AccentColor">
+            <color red="0.0" green="0.46000000000000002" blue="0.89000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <systemColor name="labelColor">
+            <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="secondarySystemBackgroundColor">
+            <color red="0.94901960784313721" green="0.94901960784313721" blue="0.96862745098039216" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
